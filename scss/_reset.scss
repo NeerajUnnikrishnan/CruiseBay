@@ -1,0 +1,85 @@
+@import 'nav';
+
+$blue: red;	
+$navy_blue:#001f3f;
+$font-def:sans-serif; 
+
+body {
+  font: 100% $font-def;
+}
+
+.container-fluid.hero{
+	height:100vh;
+}
+
+.hero-box{
+	position:relative;
+	top:15rem;
+	color:white;	
+	text-align:center;
+	h1{
+		font-size:5rem;
+	}
+}
+
+.jumbotron{
+	height:50vh;
+	color:white;
+	padding:5rem;
+	text-align:center;
+	background-color:$navy_blue !important;
+	a{
+	margin:auto;
+}
+}
+
+.container-fluid.empty{
+	height:10vh;
+}
+
+.display-4{
+	text-align:center;
+}
+
+
+.container-fluid.slider{
+	}
+
+
+
+.container-fluid.footer{
+	margin-top:5rem;
+	color:white;
+	height:15rem;
+	background-color:black;
+}
+
+.signup{
+	margin-top:5rem;
+}
+
+.form-group{
+	width:50rem;
+	margin:auto;
+}
+
+
+.col-sm-4.left{
+	ul{
+	position:relative;
+    top:5rem;
+ 	list-style-type:none;
+ 	}
+}
+
+.col-sm-4.right{
+    position:relative;
+    top:5rem;
+	text-align:center;
+}
+
+.col-sm-4.center{
+ 	position:relative;
+    top:5rem;
+	text-align:center;
+}

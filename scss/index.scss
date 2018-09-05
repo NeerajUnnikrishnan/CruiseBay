@@ -1,0 +1,50 @@
+@import 'custom';
+@import "~bootswatch/dist/materia/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/materia/bootswatch";
+
+.col-sm-4.left{
+ 	list-style-type:none;
+ 	ul{
+ 	@include top_position(2rem);
+	 	a{
+	 	color:white;
+	 	}
+	 	a:hover{
+	 	text-decoration:none;
+	 	}
+ 	}
+}
+
+.col-sm-4.right{
+    height:100%;
+	text-align:center;
+}
+
+.col-sm-4.center{
+ 	@include top_position(7.5rem);
+ 	height:100%;
+	text-align:center;
+}
+
+.signup{
+	@include top_position(1rem);
+	margin:auto;
+	border:1px solid gray;
+	border-radius:5px;
+	width:50%;
+	height:90vh;
+	h1{
+		@include top_position(2rem);
+		text-align:center;
+	}
+}
+
+.hero-box{
+	@include top_position(15rem);
+	color:white;	
+	text-align:center;
+	h1{
+		font-size:5rem;
+	}
+}
