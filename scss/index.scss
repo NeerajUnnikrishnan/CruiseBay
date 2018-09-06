@@ -31,12 +31,11 @@
 }
 
 #form{
-	width:100vw;
+	width:100%;
 }
 
 #footer{
-	width:100vw;
-	border:1px solid blue;
+	overflow-x:hidden;
 	margin-top:2rem;
 	color:white;
 	height:15rem;
@@ -46,6 +45,6 @@
 .right{
 	@include top_position(2rem);
     height:10vh;
-    width:100vw;
+    width:100%;
 	text-align:center;
 }
