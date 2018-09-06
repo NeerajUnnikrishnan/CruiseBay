@@ -3,28 +3,17 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/materia/bootswatch";
 
-.col-sm-4.left{
- 	list-style-type:none;
- 	ul{
- 	@include top_position(2rem);
-	 	a{
-	 	color:white;
-	 	}
-	 	a:hover{
-	 	text-decoration:none;
-	 	}
- 	}
+.hero-box{
+	@include top_position(15rem);
+	color:white;	
+	text-align:center;
+	h1{
+		font-size:4rem;
+	}
 }
 
-.col-sm-4.right{
-    height:100%;
-	text-align:center;
-}
-
-.col-sm-4.center{
- 	@include top_position(7.5rem);
- 	height:100%;
-	text-align:center;
+.container-fluid.empty{
+	height:10vh;
 }
 
 .signup{
@@ -33,18 +22,30 @@
 	border:1px solid gray;
 	border-radius:5px;
 	width:50%;
-	height:90vh;
+	height:80vh;
 	h1{
 		@include top_position(2rem);
 		text-align:center;
+		font-size:1.25rem;
 	}
 }
 
-.hero-box{
-	@include top_position(15rem);
-	color:white;	
+#form{
+	width:100vw;
+}
+
+#footer{
+	width:100vw;
+	border:1px solid blue;
+	margin-top:2rem;
+	color:white;
+	height:15rem;
+	background-color:black;
+}
+
+.right{
+	@include top_position(2rem);
+    height:10vh;
+    width:100vw;
 	text-align:center;
-	h1{
-		font-size:5rem;
-	}
 }

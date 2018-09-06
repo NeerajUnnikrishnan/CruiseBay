@@ -32,14 +32,6 @@ module.exports = {
     ]
   },
 
-  {
-        test: /\.(png|jpg|gif|svg|jpeg)$/,
-        loader: 'file-loader',
-        options: {
-          name: '[path][name].[ext]'
-        },
-}
-
   plugins: [
     new HtmlWebpackPlugin({
       template: './index.html',

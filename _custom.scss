@@ -1,0 +1,61 @@
+@import 'nav';
+@import 'reset';
+
+$blue: red;	
+$navy_blue:#001f3f;
+$font-def:sans-serif; 
+
+@mixin top_position($top){
+	position:relative;
+	top: $top;
+}
+
+body {
+  font: 100% $font-def;
+  width:100vh;
+}
+
+.card-group{
+	margin-bottom:5rem;
+}
+
+.card{
+	margin:2rem;
+}
+
+.collapse-button{
+	 position:relative;
+	 left:5rem;
+	 width:100vh;
+	 @include top_position(-2rem);
+}
+
+.jumbotron{
+	height:50vh;
+	color:white;
+	padding:5rem;
+	text-align:center;
+	border-radius:0px;
+	background-color:$navy_blue !important;
+	
+	a{
+	margin:auto;
+	}
+}
+
+.display-4{
+	text-align:center;
+}
+
+.carousel-inner{
+	height:80vh;
+}
+
+.form-group{
+	@include top_position(5rem);
+	width:50%;
+	margin:auto;
+}
+
+
+

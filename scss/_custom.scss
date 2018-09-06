@@ -23,8 +23,7 @@ body {
 }
 
 .collapse-button{
-	 position:relative;
-	 left:5rem;
+	 margin:1rem;
 	 width:100vh;
 	 @include top_position(-2rem);
 }
@@ -33,10 +32,9 @@ body {
 	height:50vh;
 	color:white;
 	padding:5rem;
+	width:100vw;
 	text-align:center;
-	border-radius:0px;
 	background-color:$navy_blue !important;
-	
 	a{
 	margin:auto;
 	}
@@ -50,11 +48,13 @@ body {
 	height:80vh;
 }
 
-.form-group{
-	@include top_position(5rem);
-	width:50%;
-	margin:auto;
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
 
-
+.form-group{
+	@include top_position(3rem);
+	width:50%;
+	height:15%;
+}
 
